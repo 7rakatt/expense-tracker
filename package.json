@@ -1,11 +1,21 @@
 {
-  "name": "node-ts",
-  "version": "1.0.0",
+  "name": "expense-tracker",
+  "version": "0.0.1",
   "license": "ISC",
-  "main": "index.mts",
+  "main": "index.ts",
+  "type": "module",
+  "bin": {
+    "expense-tracker": "/bin/index.js"
+  },
   "scripts": {
-    "dev": "npx tsx --env-file=.env.local index.mts",
-    "dev:watch": "npx tsx --env-file=.env.local --watch index.mts"
+    "start": "node bin/index.js",
+    "dev": "npx tsx index.ts",
+    "dev:watch": "npx tsx --watch index.ts",
+    "build": "npx tsc"
+  },
+  "dependencies": {
+    "@commander-js/extra-typings": "^12.1.0",
+    "commander": "^12.1.0"
   },
   "devDependencies": {
     "@types/node": "^22.2.0",

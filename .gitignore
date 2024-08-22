@@ -25,3 +25,7 @@ pnpm-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# build
+bin
+db.json
