@@ -40,3 +40,7 @@ Commands:
   summary [options]  View a summary of your expenses, with an optional filter by month.
   help [command]     display help for command
 ```
+
+## Links
+
+For further information about this project, visit the [project link](https://roadmap.sh/projects/expense-tracker).
