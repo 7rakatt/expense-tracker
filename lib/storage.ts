@@ -3,30 +3,6 @@ import * as fs from 'node:fs/promises';
 
 const path = 'db.json';
 
-/*
-
-| housing 
-| food 
-| transportation 
-| healthcare 
-| education 
-| leisure-and-entertainment 
-| clothing-and-retirement 
-| debt-and-financing 
-| technology-and-communication
-
-{ 
-  id: 1, 
-  created_at: new Date(), 
-  updated_at: new Date(),
-  relative_date: new Date() | new Date(new Date().setMonth(0))
-  description: 'netflix subscription', 
-  amount: 9, 
-  category: null, 
-}
-
-*/
-
 const seed = {
   counter: 0,
   data: [],
